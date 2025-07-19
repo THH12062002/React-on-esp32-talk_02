@@ -15,4 +15,11 @@ export default defineConfig({
       "/api": "http://my-esp32.local",
     },
   },
+  assetsInclude: ["**/*.csv"],
+  // Add specific handling for CSV files
+  build: {
+    rollupOptions: {
+      plugins: [],
+    },
+  },
 });

@@ -41,7 +41,7 @@ export const Servo = () => {
         <svg
           transform={`rotate(${(angle + 270) * -1})`}
           xmlns="http://www.w3.org/2000/svg"
-          className="h-20 w-20"
+          class="h-20 w-20"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

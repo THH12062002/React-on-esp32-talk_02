@@ -143,8 +143,8 @@ export function Magnetometer() {
   }, []);
 
   return (
-    <div className="w-1/2">
-      {error && <div className="text-red-500 mb-4">{error}</div>}
+    <div class="w-1/2">
+      {error && <div class="text-red-500 mb-4">{error}</div>}
       <Line options={chartOptions} data={chartData} />
     </div>
   );
